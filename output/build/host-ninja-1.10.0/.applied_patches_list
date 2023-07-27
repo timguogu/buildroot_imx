@@ -1,0 +1,3 @@
+/home/peter/buildroot-2020.02.8/package/ninja/0001-set-minimum-cmake-version-to-3.10.patch
+/home/peter/buildroot-2020.02.8/package/ninja/0002-remove-fdiagnostics-color-from-make-command.patch
+/home/peter/buildroot-2020.02.8/package/ninja/0003-CMake-fix-object-library-usage.patch

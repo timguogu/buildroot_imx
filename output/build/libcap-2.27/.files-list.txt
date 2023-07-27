@@ -1,0 +1,5 @@
+libcap,./usr/include/sys/capability.h
+libcap,./usr/lib/pkgconfig/libcap.pc
+libcap,./usr/lib/libcap.so.2.27
+libcap,./usr/lib/libcap.so.2
+libcap,./usr/lib/libcap.so

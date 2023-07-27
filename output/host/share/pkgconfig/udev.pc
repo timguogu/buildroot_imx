@@ -1,0 +1,5 @@
+Name: udev
+Description: udev
+Version: 244
+
+udevdir=/usr/lib/udev

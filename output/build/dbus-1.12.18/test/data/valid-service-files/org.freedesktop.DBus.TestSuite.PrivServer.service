@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuite.PrivServer
+Exec=/home/peter/buildroot-2020.02.8/output/build/dbus-1.12.18/test/name-test/test-privserver
+

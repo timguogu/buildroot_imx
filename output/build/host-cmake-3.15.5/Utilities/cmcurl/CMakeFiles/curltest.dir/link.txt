@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O2 -w  -L/home/peter/buildroot-2020.02.8/output/host/lib -Wl,-rpath,/home/peter/buildroot-2020.02.8/output/host/lib CMakeFiles/curltest.dir/curltest.c.o  -o curltest lib/libcmcurl.a -ldl ../cmzlib/libcmzlib.a 

@@ -1,0 +1,10 @@
+prefix=/home/peter/buildroot-2020.02.8/output/host
+exec_prefix=/home/peter/buildroot-2020.02.8/output/host
+libdir=/home/peter/buildroot-2020.02.8/output/host/lib
+includedir=/home/peter/buildroot-2020.02.8/output/host/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.35.1
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

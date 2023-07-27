@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/home/peter/buildroot-2020.02.8/output/host/lib -Wl,-rpath,/home/peter/buildroot-2020.02.8/output/host/lib CMakeFiles/pseudo_emulator_custom_command_arg.dir/pseudo_emulator_custom_command_arg.c.o  -o pseudo_emulator_custom_command_arg 

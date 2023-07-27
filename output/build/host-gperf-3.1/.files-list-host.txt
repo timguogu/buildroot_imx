@@ -1,0 +1,4 @@
+host-gperf,./bin/gperf
+host-gperf,./share/info/gperf.info
+host-gperf,./share/man/man1/gperf.1
+host-gperf,./share/doc/gperf.html

@@ -1,0 +1,14 @@
+kmod,./usr/share/bash-completion/completions/kmod
+kmod,./usr/include/libkmod.h
+kmod,./usr/lib/pkgconfig/libkmod.pc
+kmod,./usr/lib/libkmod.so.2.3.4
+kmod,./usr/lib/libkmod.so.2
+kmod,./usr/lib/libkmod.so
+kmod,./usr/lib/libkmod.la
+kmod,./usr/bin/kmod
+kmod,./sbin/lsmod
+kmod,./sbin/modinfo
+kmod,./sbin/depmod
+kmod,./sbin/insmod
+kmod,./sbin/modprobe
+kmod,./sbin/rmmod

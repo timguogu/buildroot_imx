@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/home/peter/buildroot-2020.02.8/output/host/lib -Wl,-rpath,/home/peter/buildroot-2020.02.8/output/host/lib -rdynamic CMakeFiles/cmsysTestSharedForward.dir/testSharedForward.c.o  -o cmsysTestSharedForward 

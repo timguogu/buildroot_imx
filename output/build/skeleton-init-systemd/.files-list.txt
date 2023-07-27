@@ -1,0 +1,2 @@
+skeleton-init-systemd,./run/run
+skeleton-init-systemd,./etc/fstab

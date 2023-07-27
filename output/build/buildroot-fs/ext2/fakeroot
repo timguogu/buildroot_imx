@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target
+chown -h -R 1000:1000 '/home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target//var/run/dbus'
+chown -h -R 1002:1006 '/home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target//var/log/journal'
+chown -h -R 1003:1007 '/home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target//var/log/journal/remote'
+/home/peter/buildroot-2020.02.8/output/host/bin/makedevs -d /home/peter/buildroot-2020.02.8/output/build/buildroot-fs/full_devices_table.txt /home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target
+   	rm -rf /home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target//usr/lib/udev/hwdb.d/
+   	/home/peter/buildroot-2020.02.8/output/host/bin/systemctl --root=/home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target preset-all
+   
+   	rm -f /home/peter/buildroot-2020.02.8/output/images/rootfs.ext2
+	/home/peter/buildroot-2020.02.8/output/host/sbin/mkfs.ext4 -d /home/peter/buildroot-2020.02.8/output/build/buildroot-fs/ext2/target -r 1 -N 0 -m 5 -L "" -O ^64bit /home/peter/buildroot-2020.02.8/output/images/rootfs.ext2 "60M" || { ret=$?; echo "*** Maybe you need to increase the filesystem size (BR2_TARGET_ROOTFS_EXT2_SIZE)" 1>&2; exit $ret; }

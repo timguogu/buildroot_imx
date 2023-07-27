@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/home/peter/buildroot-2020.02.8/output/host/lib -Wl,-rpath,/home/peter/buildroot-2020.02.8/output/host/lib CMakeFiles/pseudo_cpplint.dir/pseudo_cpplint.c.o  -o pseudo_cpplint 

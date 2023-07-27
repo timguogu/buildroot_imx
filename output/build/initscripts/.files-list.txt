@@ -1,0 +1,3 @@
+initscripts,./etc/init.d/rcK
+initscripts,./etc/init.d/rcS
+initscripts,./etc/init.d/S20urandom

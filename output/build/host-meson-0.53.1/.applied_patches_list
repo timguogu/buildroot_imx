@@ -1,0 +1,4 @@
+/home/peter/buildroot-2020.02.8/package/meson/0001-Only-fix-RPATH-if-install_rpath-is-not-empty.patch
+/home/peter/buildroot-2020.02.8/package/meson/0002-Prefer-ext-static-libs-when-default-library-static.patch
+/home/peter/buildroot-2020.02.8/package/meson/0003-envconfig-add-pkg_config_libdir-property.patch
+/home/peter/buildroot-2020.02.8/package/meson/0004-mesonbuild-dependencies-base.py-add-pkg_config_stati.patch

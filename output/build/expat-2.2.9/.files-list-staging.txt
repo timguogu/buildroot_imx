@@ -1,0 +1,11 @@
+expat,./usr/include/expat_config.h
+expat,./usr/include/expat.h
+expat,./usr/include/expat_external.h
+expat,./usr/share/doc/expat/AUTHORS
+expat,./usr/share/doc/expat/changelog
+expat,./usr/lib/libexpat.so.1.6.11
+expat,./usr/lib/libexpat.so.1
+expat,./usr/lib/libexpat.so
+expat,./usr/bin/xmlwf
+expat,./usr/lib/pkgconfig/expat.pc
+expat,./usr/lib/libexpat.la

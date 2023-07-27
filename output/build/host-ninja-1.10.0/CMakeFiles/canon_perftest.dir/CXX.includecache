@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/canon_perftest.cc
+stdio.h
+-
+string.h
+-
+util.h
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/util.h
+metrics.h
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/metrics.h
+
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/metrics.h
+string
+-
+vector
+-
+util.h
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/util.h
+
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/util.h
+win32port.h
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/win32port.h
+stdint.h
+-
+string
+-
+vector
+-
+
+/home/peter/buildroot-2020.02.8/output/build/host-ninja-1.10.0/src/win32port.h
+inttypes.h
+-
+

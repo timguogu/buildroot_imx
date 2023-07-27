@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteEchoService
+Exec=/home/peter/buildroot-2020.02.8/output/build/dbus-1.12.18/test/test-service
+User=anyrandomuser
+
